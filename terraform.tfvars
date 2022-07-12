@@ -5,8 +5,10 @@ instance-count = 1
 default-subnet = "us-east-1b"
 
 
-#first-role = "MYEC2-Role"
-#policy-arn = "arn:aws:iam::610552914557:role/MYEC2-Role"
+
 instance_tags = {
   "Name" = "Hello cars"
+  "World" = "Hello world"
+  "Abbas" = "riffat"
+  "Moiz" = "Irshad"
 }
